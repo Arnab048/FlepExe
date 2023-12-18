@@ -2,26 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.container{
+  max-width: 1280px;
+  margin: auto auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.buttonHover:hover{
+  color: black;
+  background-color: white;
+  transition: linear 0.2s;
+}
+.navButtonHover:hover{
+  color: rgb(236, 72, 153);
+  scale: 101%;
+  transition: linear 0.2s;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.shads{
+  box-shadow: -1px 1px 19px 0px rgba(0,0,0,0.31);
+  -webkit-box-shadow: -1px 1px 19px 0px rgba(0,0,0,0.31);
+  -moz-box-shadow: -1px 1px 19px 0px rgba(0,0,0,0.31);
+}
+
+.ticked-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ticked-item::before {
+  content: '\2713'; /* Unicode character for a checkmark */
+  color: rgb(245, 77, 105); /* Set the color to pink */
+  margin-right: 8px; /* Add some space between the tick and the text */
 }
