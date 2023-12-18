@@ -30,7 +30,7 @@ const Services = () => {
   ];
 
   return (
-    <div className=" mt-20">
+    <div className=" mt-20 border-b-2 border-b-slate-300 mb-20">
       <div className="flex justify-center">
         <AnimatedText text={"WHAT WE DO"} />
       </div>
@@ -56,7 +56,7 @@ const Services = () => {
               alt=""
               className="absolute top-[-15%] rounded-md"
             />
-            <div className=" bg-pink-500 absolute bottom-[0%] right-[0%] ">
+            <div className=" bg-pink-500 absolute bottom-[0%] right-[0%] rounded-md">
               <div className="flex justify-around gap-4 p-4">
                 <h1 className=" text-white font-bold text-7xl">18</h1>
                 <p className="text-white font-semibold text-xl pt-2">

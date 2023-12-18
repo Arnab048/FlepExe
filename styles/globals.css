@@ -34,3 +34,40 @@
   color: rgb(245, 77, 105); /* Set the color to pink */
   margin-right: 8px; /* Add some space between the tick and the text */
 }
+
+.WPimageHover:hover{
+  scale: 120%;
+  transition: 0.5s ease-in-out;
+}
+.WPimageHover:hover .innerCircle{
+  background-color: white;
+  transition: 0.5s ease-in-out;
+  right: -20px;
+  bottom: -20px;
+  color: black;
+}
+
+.WPimageHover:hover .frstText{
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.nxtText{
+  opacity: 0;
+}
+
+.WPimageHover:hover .nxtText{
+  opacity: 1;
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.textArea{
+
+}
+
+.WPimageHover:hover .textArea{
+  background-color: white;
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+}
