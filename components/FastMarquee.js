@@ -10,7 +10,7 @@ const MarqueeComponent = () => {
   ];
 
   return (
-    <div style={{ width: "full", overflow: "hidden", marginBottom: "80px" }}>
+    <div style={{ width: "full", overflow: "hidden" }}>
       <Marquee className="bg-[#1F2732] py-10" speed={100}>
         {textItems.map((text, index) => (
           <div

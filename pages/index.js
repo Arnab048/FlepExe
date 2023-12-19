@@ -1,6 +1,7 @@
 import AboutUs from "@/components/AboutUs";
 import Brands from "@/components/Brands";
 import FastMarquee from "@/components/FastMarquee";
+import Footer from "@/components/Footer";
 import HeroSwipper from "@/components/HeroSwipper";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
@@ -19,12 +20,15 @@ export default function Home() {
       </div>
       <div className="container">
         <Services />
-        <Brands />
       </div>
+      <Brands />
       <AboutUs />
       <WorkingProcess />
       <Testimonial />
       <FastMarquee />
+      <div className=" bg-slate-800">
+        <Footer />
+      </div>
     </main>
   );
 }

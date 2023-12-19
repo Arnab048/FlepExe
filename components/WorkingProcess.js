@@ -4,7 +4,7 @@ import AnimatedText from "./AnimatedText";
 const WorkingProcess = () => {
   return (
     <div
-      className="h-[100vh] w-full"
+      className="h-[100vh] w-full py-20"
       style={{
         backgroundColor: "#1F2732",
         backgroundSize: "cover",
@@ -12,7 +12,7 @@ const WorkingProcess = () => {
         position: "relative",
       }}
     >
-      <div className="container text-center p-20">
+      <div className="container text-center p-20 mb-40 h-[20vh]">
         <AnimatedText text={"WORK PROCESS"} />
         <h2 className="text-white font-semibold text-5xl">
           Our Working Process
