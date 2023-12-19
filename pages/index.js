@@ -1,11 +1,11 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import Navbar from "@/components/Navbar";
-import HeroSwipper from "@/components/HeroSwipper";
-import Services from "@/components/Services";
-import Brands from "@/components/Brands";
 import AboutUs from "@/components/AboutUs";
+import Brands from "@/components/Brands";
+import HeroSwipper from "@/components/HeroSwipper";
+import Navbar from "@/components/Navbar";
+import Services from "@/components/Services";
+import Testimonial from "@/components/Testimonial";
 import WorkingProcess from "@/components/WorkingProcess";
+import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +22,7 @@ export default function Home() {
       </div>
       <AboutUs />
       <WorkingProcess />
+      <Testimonial />
     </main>
   );
 }

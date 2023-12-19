@@ -2,26 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-.container{
-  max-width: 1280px;
-  margin: auto auto;
+body {
+  background-color: rgb(248, 249, 250);
 }
 
-.buttonHover:hover{
+.container {
+  max-width: 1280px;
+  margin: auto auto;
+  padding: 0 10px;
+}
+
+.buttonHover:hover {
   color: black;
   background-color: white;
   transition: linear 0.2s;
 }
-.navButtonHover:hover{
+.navButtonHover:hover {
   color: rgb(236, 72, 153);
   scale: 101%;
   transition: linear 0.2s;
 }
 
-.shads{
-  box-shadow: -1px 1px 19px 0px rgba(0,0,0,0.31);
-  -webkit-box-shadow: -1px 1px 19px 0px rgba(0,0,0,0.31);
-  -moz-box-shadow: -1px 1px 19px 0px rgba(0,0,0,0.31);
+.shads {
+  box-shadow: -1px 1px 19px 0px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: -1px 1px 19px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: -1px 1px 19px 0px rgba(0, 0, 0, 0.31);
 }
 
 .ticked-list {
@@ -30,16 +35,16 @@
 }
 
 .ticked-item::before {
-  content: '\2713'; /* Unicode character for a checkmark */
+  content: "\2713"; /* Unicode character for a checkmark */
   color: rgb(245, 77, 105); /* Set the color to pink */
   margin-right: 8px; /* Add some space between the tick and the text */
 }
 
-.WPimageHover:hover{
+.WPimageHover:hover {
   scale: 120%;
   transition: 0.5s ease-in-out;
 }
-.WPimageHover:hover .innerCircle{
+.WPimageHover:hover .innerCircle {
   background-color: white;
   transition: 0.5s ease-in-out;
   right: -20px;
@@ -47,27 +52,30 @@
   color: black;
 }
 
-.WPimageHover:hover .frstText{
+.WPimageHover:hover .frstText {
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
 
-.nxtText{
+.nxtText {
   opacity: 0;
 }
 
-.WPimageHover:hover .nxtText{
+.WPimageHover:hover .nxtText {
   opacity: 1;
   color: black;
   transition: 0.5s ease-in-out;
 }
 
-.textArea{
-
+.textArea {
 }
 
-.WPimageHover:hover .textArea{
+.WPimageHover:hover .textArea {
   background-color: white;
   opacity: 1;
   transition: 0.5s ease-in-out;
+}
+
+.testimonial-clip-path {
+  clip-path: polygon(6% 14%, 100% 14%, 100% 100%, 0 100%, 0 0);
 }
