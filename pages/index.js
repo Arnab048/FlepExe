@@ -1,5 +1,6 @@
 import AboutUs from "@/components/AboutUs";
 import Brands from "@/components/Brands";
+import FastMarquee from "@/components/FastMarquee";
 import HeroSwipper from "@/components/HeroSwipper";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
@@ -23,6 +24,7 @@ export default function Home() {
       <AboutUs />
       <WorkingProcess />
       <Testimonial />
+      <FastMarquee />
     </main>
   );
 }
