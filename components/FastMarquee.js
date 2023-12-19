@@ -16,11 +16,11 @@ const MarqueeComponent = () => {
           <div
             key={index}
             style={{
-              marginRight: "80px",
+              marginRight: "15px",
             }}
             className="text-[#db4490] text-8xl font-bold"
           >
-            | {text} |
+            {text} —
           </div>
         ))}
       </Marquee>
